@@ -55,12 +55,14 @@ desafio-02-sistema-bancario-assincrono/
 Para testar esse projeto siga os seguintes passos:
 
 Navegue até a pasta do desafio e instale as dependências:
-
+```
 pip install fastapi uvicorn sqlalchemy aiosqlite python-jose[cryptography] "passlib[bcrypt]" python-multipart
+```
 
 Inicialize o servidor Uvicorn:
-
+```
 python -m uvicorn main:app --reload
+```
 
 Abra o navegador no endereço: http://127.0.0.1:8000/docs
 
